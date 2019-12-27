@@ -3,6 +3,8 @@ This repo contains source and build scripts for Evidence-Based Hiring book ([Ama
 
 The book is in [Pandoc’s Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown), written using [VSCode](https://code.visualstudio.com/). 
 
+![](../images/EBH-cover-image-small.jpg)
+
 ## Requirements
 
 * To build HTML, EPUB and PDF, you will need [Pandoc converter](https://pandoc.org/). 
