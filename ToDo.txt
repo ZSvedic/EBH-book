@@ -1,13 +1,18 @@
 TODO:
+- ALL: Add cover.
 - PDF: Some text in tables overlaps (see EBH-tables-issue.png).
 - PDF: All titles should be centered, not left-aligned.
 - PDF and EPUB: Title page and Copyright page should come before TOC.
 - PDF: Images should be centered.
 - HTML: Each chapter should be a separate page, with navigation in header and footer. Footer should also contain sharing links, without JavaScript, like here: https://svedic.org/programming/thanks-economist-fix-the-internet
+- HTML: All external links should open in a new tab (target="_blank") 
+- Make EBH-standalone (no gutter, not double sided).
 
 DONE:
-+ PDF page numbers should be middle of margin.
++ Split MD into chapters.
++ Rearange folders.
++ PDF page numbers should be in the middle of margin.
 + PDF should have 1.5 line spacing. 
-+ PDF format should be 5x9in with gutter
-+ Add CC notice
-+ Edit entire book
++ PDF format should be 5x9in with gutter.
++ Add CC notice.
++ Edit entire book.
