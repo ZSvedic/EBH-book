@@ -2,7 +2,7 @@
    Forked from: https://gist.github.com/killercup/5917178 */
 
 a.footnote-ref { 
-    vertical-align: super; /* Change: cootnote superscript. */
+    vertical-align: super; /* Change: footnote superscript. */
 }
 
 html {
