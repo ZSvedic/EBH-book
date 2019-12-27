@@ -4,6 +4,7 @@ author: Zeljko Svedic
 rights:  © 2018 Zeljko Svedic, CC BY-ND
 language: en-US
 fontfamily: arev
+cover-image: ../images/EBH-cover-image-small.jpg
 ---
 
 \newpage
