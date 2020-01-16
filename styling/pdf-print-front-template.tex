@@ -399,18 +399,16 @@ $endif$
 $endif$
 
 \begin{document}
+\pagestyle{empty}
 $if(has-frontmatter)$
 \frontmatter
-$endif$
-$if(cover-image)$
-\includepdf{$cover-image$}
-\setcounter{page}{1}
 $endif$
 $if(title)$
 $if(beamer)$
 \frame{\titlepage}
 $else$
 \maketitle
+\thispagestyle{empty}
 \newpage
 $endif$
 $if(abstract)$
