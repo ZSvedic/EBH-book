@@ -14,7 +14,7 @@ pandoc -s %source% -o ../output/EBH.epub --toc -c ../styling/html-epub-styling.c
 pandoc -s %source% -o ../output/EBH-print.pdf --toc --columns 55 -H ../styling/pdf-print-latex-options.sty --lua-filter=../styling/pdf-center-images.lua
 
 @REM Build standalone PDF:
-pandoc -s %source% -o ../output/EBH-standalone.pdf --toc --columns 55 -H ../styling/pdf-standalone-latex-options.sty --lua-filter=../styling/pdf-center-images.lua
+pandoc -s %source% -o ../output/EBH-standalone.pdf --toc --columns 55 -H ../styling/pdf-standalone-latex-options.sty --lua-filter=../styling/pdf-center-images.lua --template ../styling/pdf-with-cover-image-template.tex
 
 @REM Go back to the original folder:
 popd 
