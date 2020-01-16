@@ -37,7 +37,7 @@ In the Acme example, an on-site interview gives more information than checking S
 Let’s examine effort and reward in the traditional screening process for both candidates and employers. Here’s how the Acme Corporation process for an average candidate might look:
 
 Step            | Company effort    | Candidate effort  | Reward                | Validity
-:-------        | :---              | :---              | :----------           | :--- 
+:-------        | :-----            | :-----            | :----------           | :--- 
 Application form, résumé, and a cover letter | 5 min. | 25 min. | Does the candidate satisfy the basic requirements? | Low 
 Phone screen    | 20 min. | 15 min. | Can the candidate communicate well and answer promptly? | Low 
 First interview (unstructured) | 45 min. | 45 min. interview + 1 hour commute | Find out more about the candidate’s education, work experience, and style of communication. | Medium 
@@ -56,12 +56,12 @@ This makes sense for dating, because we often enjoy the dating process. But, it 
 
 If a candidate passes the entire process, it takes 7 hours and 15 minutes of company time. Let’s look at how much time could we save by eliminating them earlier:
 
-Elimination Step                            | Invested company effort   | Time efficiency
-:---------------                            | ---:                      | ---:
-Candidate passes all stages                 | 7 hours 15 minutes        | 1x
-Candidate fails the knowledge test          | 5 hours 10 minutes        | 1.4x
-Candidate fails the phone screen            | 25 minutes                | 17.4x
-Candidate fails application form questions  | 5 minutes                 | 87x
+Elimination Step | Invested company effort   | Time efficiency
+:------------    | ------:                   | -----:
+Candidate passes all stages | 7 hours 15 minutes | 1x
+Candidate fails the knowledge test | 5 hours 10 minutes | 1.4x
+Candidate fails the phone screen | 25 minutes | 17.4x
+Candidate fails application form questions | 5 minutes| 87x
 
 Eliminating a candidate from an application form is 87 times more time efficient (5 minutes vs 7 hours 15 minutes), and that’s before you multiply this again by the number of candidates. If you have 20 candidates and an average applicant takes five hours to screen, failing after the knowledge test, the total effort is a huge 100 hours.
 

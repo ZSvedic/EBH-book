@@ -70,7 +70,7 @@ Now, let's go through the rankings, from worst to best.
 These methods definitely shouldn’t be used, because they have validity below 0.2 and, so, are about as good as asking Mystic Mahjoob, the local fortune teller: 
 
 Method                                  | Validity  | Description     
-:-----------                            | ---:      | :---------------------------- 
+:-----------                            | ----:     | :---------------------------
 Age                                     | -0.01     | Candidate age has non-existent validity, so companies that discriminate against candidates that are “too young” or “too old” should stop doing so—not only because it’s illegal in most countries, but it’s also just plain invalid.
 Graphology                              | 0.02      | Analysis of a candidate’s handwriting is advertised as a way to detect their personality. It’s popular in Western Europe, especially in France where 70-80% of companies still use it[^bbc-graphology] (no, I’m not making this up). This is surprising, since it has no validity and even the graphology wiki page[^wiki-graphology] states it is a pseudoscience.
 Interests                               | 0.10      | Interests are a common part of a résumé that you can safely ignore, as they have very low validity.
@@ -91,7 +91,7 @@ Job experience (years)                  | 0.18      | Years of experience in the
 The methods below have validity between 0.2 and 0.45 and can be used in addition to high validity methods:
 
 Method                                  | Validity  | Description     
-:-----------                            | ---:      | :---------------------------- 
+:-----------                            | ----:     | :--------------------------- 
 Reference checks                        | 0.26      | Contacting previous employers is a valid method, as past performance predicts future performance. Unfortunately, it is often not possible for a current job, as previous employers are usually reluctant to share that information and it is illegal in some countries.
 Conscientiousness tests                 | 0.31      | Conscientiousness is a measure of a specific personality trait and can be asked during an interview. It highlights candidates with a high level of self-discipline.
   Biographical data measures            | 0.35      | Many life experiences (such as school, parenting style, hobbies, sports, membership in various organisations, etc.) are scored based on *statistical data from past hires*. Quite hard to develop, but easy to use thereafter. Note that sex, age, and marital status are illegal to use.
@@ -108,7 +108,7 @@ Conscientiousness tests                 | 0.31      | Conscientiousness is a mea
 Only five methods have a validity above 0.45:
 
 Method                                  | Validity  | Description     
-:-----------                            | ---:      | :---------------------------- 
+:-----------                            | ----:     | :---------------------------
 Job knowledge tests                     | 0.48      | Question the specific professional knowledge required for the job. This method has high validity, but can pose a problem when screening junior candidates who require training.
 Peer rating                             | 0.49      | Asking coworkers to evaluate a candidate’s performance and averaging the results is surprisingly valid. People inside a company have a better insight of each other’s abilities. A good method for in-company promotion or reassignment, but not for hiring outside employees.
 General mental ability (GMA) tests      | 0.51      | GMA tests measure the ability of a candidate to solve generic problems, such as numerical reasoning, verbal reasoning, or problem solving. They don’t guarantee that a candidate has the required skills, just the mental capability to develop them if trained. Note that brainteasers like “how would you move mount Fuji?” are too vague and subjective for a GMA test.

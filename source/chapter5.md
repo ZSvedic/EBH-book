@@ -78,7 +78,7 @@ Third, trivia questions are *trivial to cheat*. If you copy-paste the exact ques
 
 This is not only a problem for online tests: it’s also trivial to cheat in a supervised classroom setting. All you need is a smartphone in a bag, a mini Bluetooth earphone bud[^bluetooth-earbud], and a little bit of hair to cover your ear. It doesn’t take a master spy. How can you know if a student is just repeating a question to themself or talking to Google Assistant?
 
-[^bluetooth-earbud]: Bluetooth Earbud on Amazon: [*http://a.co/fxz9Wbm*
+[^bluetooth-earbud]: Bluetooth Earbud on Amazon: <http://a.co/fxz9Wbm>
 
 For some reason, many employers and even some big testing companies love online tests with trivia questions, such as “What is X?” They think having copy-paste protection and a time limit will prevent cheating. In my experience, they merely test how fast a candidate can switch to another tab and retype the question into Google.
 
