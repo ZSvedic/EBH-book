@@ -10,8 +10,11 @@ pandoc -s %source% -o ../output/EBH.html --toc -c ../styling/html-epub-styling.c
 @REM Build EPUB:
 pandoc -s %source% -o ../output/EBH.epub --toc -c ../styling/html-epub-styling.css --lua-filter=../styling/pagebreak.lua 
 
-@REM Build print and standalone PDF:
-pandoc -s %source% -o ../output/EBH-print.pdf --toc -H ../styling/PDF-latex-options.sty
+@REM Build print PDF:
+pandoc -s %source% -o ../output/EBH-print.pdf --toc -H ../styling/pdf-print-latex-options.sty
+
+@REM Build standalone PDF:
+pandoc -s %source% -o ../output/EBH-standalone.pdf --toc -H ../styling/pdf-standalone-latex-options.sty
 
 @REM Go back to the original folder:
 popd 
