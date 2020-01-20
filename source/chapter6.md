@@ -34,13 +34,14 @@ Ready? Excited? Let’s get started by looking at the first step in our new scre
 
 Take a look at this sample job ad:
 \
+\
 
 <hr />
-\noindent\makebox[\linewidth]{\rule{0.9\paperwidth}{0.4pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
 
 Rockstar Developer Wanted
 
-\noindent\makebox[\linewidth]{\rule{0.9\paperwidth}{0.4pt}}
+\noindent\makebox[\linewidth]{\rule[5pt]{\textwidth}{0.4pt}}
 <hr />
 
 Do you want to change the world? Join AirBabysitters and revolutionize the babysitting business. Millions of families have problems finding short-term babysitters, and millions of students would like to earn extra money. We connect them, giving parents time for themselves and giving students nice and flexible work, thus disrupting the on-demand childcare sector. Our platform is a web app, and you will be one of the rockstars developing it. It needs to be mobile friendly, rock-solid, and scalable to millions of users.\
@@ -50,7 +51,7 @@ If you have technical expertise, join our awesome team. We are very friendly, in
 If interested, send your résumé to [our email](#the-job-ad).
 
 <hr />
-\noindent\makebox[\linewidth]{\rule{0.9\paperwidth}{0.4pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
 
 Do you think it does a good job of summarizing the company and vacancy? Let's imagine a following story:
 
@@ -79,11 +80,11 @@ And, while we’re at it, what do buzzwords like “rockstar developer” or “
 Let’s rewrite that job ad to include the relevant information:
 
 <hr />
-\noindent\makebox[\linewidth]{\rule{0.9\paperwidth}{0.4pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
 
 Full-time Web Developer (HTML/JS/Java) in a Startup
 
-\noindent\makebox[\linewidth]{\rule{0.9\paperwidth}{0.4pt}}
+\noindent\makebox[\linewidth]{\rule[5pt]{\textwidth}{0.4pt}}
 <hr />
 
 [AirBabysitters](#the-job-ad) is a platform that connects parents and casual babysitters. We already have thousands of users and we’re growing rapidly.\
@@ -104,7 +105,7 @@ We need someone who can begin working next month. Unfortunately, we can’t offe
 \
 If interested, please [apply using this form](#the-job-ad).
 
-\noindent\makebox[\linewidth]{\rule{0.9\paperwidth}{0.4pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
 <hr />
 
 If Joe had seen this ad, he would have never applied. He could easily see that the job requires Java and technical support, which he dislikes, and a late working schedule, which he can’t do. On the other hand, we can easily imagine the following person:

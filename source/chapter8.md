@@ -1,6 +1,7 @@
 \newpage
-CHAPTER 8: Conclusion 
-----------------------
+
+CHAPTER 8: Conclusion
+---------------------
 
 In my modest opinion, we don't live in a world of equal opportunities.
 

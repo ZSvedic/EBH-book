@@ -91,7 +91,7 @@ Job experience (years)                  | 0.18      | Years of experience in the
 The methods below have validity between 0.2 and 0.45 and can be used in addition to high validity methods:
 
 Method                                  | Validity  | Description     
-:------------                           | ----:     | :--------------------------- 
+:---------------                        | ----:     | :------------------------ 
 Reference checks                        | 0.26      | Contacting previous employers is a valid method, as past performance predicts future performance. Unfortunately, it is often not possible for a current job, as previous employers are usually reluctant to share that information and it is illegal in some countries.
 Conscientiousness tests                 | 0.31      | Conscientiousness is a measure of a specific personality trait and can be asked during an interview. It highlights candidates with a high level of self-discipline.
   Biographical data measures            | 0.35      | Many life experiences (such as school, parenting style, hobbies, sports, membership in various organisations, etc.) are scored based on *statistical data from past hires*. Quite hard to develop, but easy to use thereafter. Note that sex, age, and marital status are illegal to use.
