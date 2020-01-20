@@ -36,20 +36,14 @@ $include-before$
 $endfor$
 
 $if(title)$
-<header id="title-block-header">
+<header id="page-header">
 <h1 class="title">$title$</h1>
-$if(subtitle)$
-<p class="subtitle">$subtitle$</p>
-$endif$
-$for(author)$
-<p class="author">$author$</p>
-$endfor$
-$if(date)$
-<p class="date">$date$</p>
-$endif$
+
+<button id="toc-button">Table of contents</button>
 </header>
 $endif$
 
+<main>
 $if(toc)$
 <nav id="$idprefix$TOC" role="doc-toc">
 $if(toc-title)$
@@ -59,9 +53,14 @@ $table-of-contents$
 </nav>
 $endif$
 
-<main>
 $body$
 </main>
+
+<footer id="page-footer">
+
+</footer>
+
+<script src="../styling/html-nav.js"></script>
 
 $for(include-after)$
 $include-after$
