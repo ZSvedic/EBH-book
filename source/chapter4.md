@@ -37,12 +37,12 @@ In the Acme example, an on-site interview gives more information than checking S
 Let’s examine effort and reward in the traditional screening process for both candidates and employers. Here’s how the Acme Corporation process for an average candidate might look:
 
 Step            | Company effort    | Candidate effort  | Reward                | Validity
-:-------        | :-----            | :-----            | :----------           | :--- 
+:--------       | :-----            | :-----            | :----------           | :--- 
 Application form, résumé, and a cover letter | 5 min. | 25 min. | Does the candidate satisfy the basic requirements? | Low 
 Phone screen    | 20 min. | 15 min. | Can the candidate communicate well and answer promptly? | Low 
 First interview (unstructured) | 45 min. | 45 min. interview + 1 hour commute | Find out more about the candidate’s education, work experience, and style of communication. | Medium 
 On-site assessment and knowledge test | 4 hours | 4 hours of assessment + 1 hour commute | Candidate score on personality test, aptitude tests, knowledge test, and interview with a psychologist. | Medium 
-Second interview with two managers (structured ) | 2x1 hour | 1 hour interview + 1 hour commute | Details about the candidate’s past behavior, experiences, strengths, and weaknesses, in a form that can be compared to other candidates. | High 
+Second interview with two managers (structured) | 2x1 hour | 1 hour interview + 1 hour commute | Details about the candidate’s past behavior, experiences, strengths, and weaknesses, in a form that can be compared to other candidates. | High 
 Job offer (phone) | 5 min. | 5 min. | Will the candidate accept the terms? |  
 TOTAL: | 7 hours 15 min. | 9 hours 30 min. |                   |  
 
