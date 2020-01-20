@@ -48,7 +48,7 @@ Do you want to change the world? Join AirBabysitters and revolutionize the babys
 \
 If you have technical expertise, join our awesome team. We are very friendly, informal, and have a flexible work schedule. Last but not least, we have a sweet downtown office with a ping-pong table, an in-house yoga teacher, and bulletproof coffee on tap!\
 \
-If interested, send your résumé to [our email](#the-job-ad).
+If interested, send your résumé to our email: ...
 
 <hr />
 \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
@@ -103,7 +103,7 @@ Minimum requirements are good knowledge of HTML/CSS, Javascript, Java, SQL, and 
 \
 We need someone who can begin working next month. Unfortunately, we can’t offer visa sponsorship or remote work.\
 \
-If interested, please [apply using this form](#the-job-ad).
+If interested, please apply using this form: ...
 
 \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
 <hr />
@@ -120,7 +120,7 @@ If you don’t know what criteria to put in the job ad, think of the most common
 
 The job ad finished with instructions on how to apply. As a rookie employer, I would put this:
 
-“If interested, send your résumé and cover letter to *our email*.”
+> “If interested, send your résumé and cover letter to our email: ...”
 
 I learned the hard way that this is a mistake. My inbox instantly got filled with 30 résumés, two pages long on average, and 30 cover letters which were obviously copy/paste jobs from prepared templates. I was stuck with 70+ pages of tedious reading that wouldn’t give me the actual information that I needed to eliminate candidates. As I mentioned in [*Chapter 2: Proxies and Biases in Hiring*](#proxies-and-biases-in-hiring), most people have a polished résumé, full of buzzwords and examples of how they’ve changed the world. Switching to an application form makes a huge difference.
 
