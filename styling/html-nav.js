@@ -1,10 +1,6 @@
 (function() {
     var toc, copyright, chapters, sections, footnotes, currentPage, prevButton, nextButton;
 
-    function supportsHistoryApi() {
-        return !!(window.history && history.pushState);
-    }
-
     function hide(el) {
         el.style.display = "none";
     }
@@ -137,7 +133,13 @@
         nextButton.addEventListener('click', goToNext);
 
         goTo(window.location.hash);
-        window.addEventListener('hashchange', function() { goTo(window.location.hash); });
+        window.addEventListener('hashchange', function() { 
+            goTo(window.location.hash);
+
+            var id = window.location.hash ? window.location.hash.substring(1) : null
+            var element = id ? document.getElementById(id) : null;
+            window.scroll({ top: element ? element.offsetTop : 0, left: 0 });
+        });
     }
 
     init();
