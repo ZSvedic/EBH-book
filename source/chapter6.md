@@ -272,7 +272,7 @@ All the tools that you need for structured interviews are available free of char
 Of course, this requires preparation on the side of the interviewer. So, write questions in advance. If the answer to the question is complex, define the criteria for evaluation. For example, these are some of our questions for a position of Internal Project Manager:
 
 | Question | Scoring criteria | Answers and marks (1-5) |
-| :------  | :---------       | :--- |
+| :------  | :------          | :------                 |
 | Tell me about a time when you had to make someone enthusiastic about your idea or problem so that they would want to help you? | *Wrong:* Pushing your idea onto others. \
 \
 *Correct:* Having empathy to understand the motivations of others and present them something in a way that they will like. |
@@ -340,7 +340,7 @@ With that in mind, we can:
 Here is a list of suggested questions and scoring criteria to help you probe motivation in an interview.
 
 Question | Scoring criteria | Answers and marks (1-5)
-:-----   | :---------       | :---
+:-----   | :------          | :------
 How did you hear about the position and what motivated you to apply? | Is the candidate selective in applying for a job? Is the candidate motivated by this specific work? \
 \
 *Red flags:* Too much emphasis on money.
@@ -363,7 +363,7 @@ Tell me about a disagreement/difficult situation which you had with your manager
 You should also add motivation and character questions that are specific to the job vacancy. For example, when hiring a designer, the obvious thing to look for is the likeability of their designs. But, in my experience, the frequent problem with designers is that they get too attached to their designs and treat any feedback as a personal insult. I even had an interior designer storm out on me because I bought a designer chair not in accordance with his vision of my flat. Therefore, when I look for designers now, I ask questions like:
 
 Question | Scoring criteria | Answers and marks (1-5)
-:-----   | :---------       | :---
+:-----   | :------          | :------
 What are the first steps of your design process and how much time do you spend on each? | Do they invest time talking with the client or understanding the target audience first? \
 \
 *Red flags:* Start designing before they have sufficient input. |
@@ -377,7 +377,7 @@ What happened the last time that a client didn’t like your design? | How does 
 Next, let’s look at example questions for a representative working on the phone for customer technical support. In this profession, representatives often lose motivation and there’s high staff turnover.
 
 Question | Scoring criteria | Answers and marks (1-5)
-:------  | :---------       | :---
+:------  | :------          | :------
 Have you had a customer-facing job before? If you had it, how did you like it and what were its good and bad sides? | Do they show enthusiasm for this type of work? How realistic are they in their assessment of it? \
 \
 *Red flags:* No relevant experience. Unrealistic idea of the job. |
