@@ -366,8 +366,32 @@ table td {
 }
 
 #page-footer {
-  height: 50px;
-  padding: 8px;
+  padding: 14px;
   text-align: center;
   border-top: 1px solid #333;
+}
+
+#prev-button, #next-button {
+  background-color: #016fad;
+  border: 0;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  outline: 0;
+  cursor: pointer;
+}
+
+#prev-button:disabled, #next-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#share-buttons {
+  display: none;
+  margin-right: 80px;
+}
+
+#share-buttons a img {
+  display: inline;
 }
