@@ -25,7 +25,7 @@ Note that *improving* part can even start in the *execution* phase, because, aft
 Here are checklists of what to review during different parts of the screening process:
 
 Résumé screening checklist         | When to check?        | Corrective action     |
-:---                               | :---                  | :-------              |
+:--------                          | :----                 | :-------              |
 Does screening of each résumé take too much time? | After 5-10 résumés | Create a list of selection criteria or shorten your existing one. |
 Do applicants have the desired level of experience? | After 10-20 résumés screened | If you want more experienced applicants, update the Job Ad to target them: \
 - Raise salary level.\
@@ -34,19 +34,19 @@ Do applicants have the desired level of experience? | After 10-20 résumés scre
 Are too many applicants applying? | After 50-100 applications | Revise the Job Ad to include more requirements, and make sure that the application form has questions that eliminate candidates. |
 
 Preparing questions checklist      | When to check?        | Corrective action     |
-:------                            | :------               | :-------              |
+:---------                         | :-----                | :-------              |
 Are the questions ambiguous? | Immediately after writing questions | Send questions to, at least, one other coworker for review. |
 Are the answers to the questions available online? | Immediately after writing questions | Rephrase question using suggestions from [*Chapter 5: Level 2: Understanding*](#level-2-understanding) to make it less googleable. |
 
 Testing candidates checklist       | When to check?        | Corrective action     |
-:---                               | :---                  | :-------              |
+:--------                          | :---                  | :-------              |
 Do the majority of candidates answer the question correctly? | After 5-10 candidates tested | If everybody answers the question correctly, it has no predictive value. Make it harder, or replace with another question. |
 Do all of the candidates answer the question incorrectly? | After 10-30 candidates tested | Since you’re searching for a top-10% candidate, most applicants should get your questions wrong. But, if 100% fail, it’s likely the question, not them. Make it easier, or replace with another question. |
 Do enough people answer the question within the allotted time? | After 10-30 candidates tested | Fast solvers often need only half the allotted time. If most of the correct answers as submitted close to the maximum time, increase that maximum. |
 Do many, otherwise good, applicants give the same, incorrect answer? | After 10-30 candidates tested | There is a high probability that they are right and you are wrong. Double-check the correct answer. |
 
 Structured Interview checklist     | When to check?        | Corrective action     |
-:---                               | :---                  | :-------              |
+:--------                          | :----                 | :-------              |
 Do interviews overrun their allotted time? | After 2-3 candidates interviewed | Ask a more experienced interviewer to sit in and give feedback. An interviewer should talk less than 30% of the time, whilst still controlling the flow of the conversation. |
 Do candidates have a wrong impression of the job? | After 3-5 candidates interviewed | The Job Ad is probably misrepresenting the job. Ensure that every key task, responsibility, perk, and expectation is listed there. |
 
