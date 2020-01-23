@@ -14,7 +14,7 @@ function center_image(image)
 
         if (notes and #notes > 0) then
             return {
-                pandoc.RawInline('latex', '\\begin{figure}'),
+                pandoc.RawInline('latex', '\\begin{figure}[H]'),
                 pandoc.RawInline('latex', '\n\\centering\n'),
                 image,
                 pandoc.RawInline('latex', '\n\\begin{footnotesize}'),
@@ -26,7 +26,7 @@ function center_image(image)
             }
         else
             return {
-                pandoc.RawInline('latex', '\\begin{figure}'),
+                pandoc.RawInline('latex', '\\begin{figure}[H]'),
                 pandoc.RawInline('latex', '\n\\centering\n'),
                 image,
                 pandoc.RawInline('latex', '\n\\begin{footnotesize}'),
@@ -37,7 +37,7 @@ function center_image(image)
         end
     else
         return {
-            pandoc.RawInline('latex', '\\begin{figure}'),
+            pandoc.RawInline('latex', '\\begin{figure}[H]'),
             pandoc.RawInline('latex', '\n\\centering\n'),
             image,
             pandoc.RawInline('latex', '\n\\end{figure}')
