@@ -33,8 +33,6 @@ Ready? Excited? Let’s get started by looking at the first step in our new scre
 ### The Job Ad
 
 Take a look at this sample job ad:
-\
-\
 
 <hr />
 \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
