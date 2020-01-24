@@ -1,12 +1,12 @@
 (function() {
-    var toc, copyright, chapters, sections, footnotes, currentPage, prevButton, nextButton;
+    var frontPage, copyright, chapters, sections, footnotes, currentPage, prevButtons, nextButtons;
 
     function hide(el) {
         el.style.display = "none";
     }
 
     function show(el) {
-        el.style.display = "initial";
+        el.style.display = null;
     }
 
     function goTo(hash) {
@@ -17,12 +17,12 @@
         currentPage = getRootChapter(hash);
 
         if (currentPage == null) {
-            show(toc);
+            show(frontPage);
             show(copyright);
 
             window.location.hash = '';
         } else {
-            hide(toc);
+            hide(frontPage);
             hide(copyright);
             show(currentPage);
 
@@ -35,8 +35,8 @@
             hide(footnotes);
         }
 
-        prevButton.disabled = currentPage == null;
-        nextButton.disabled = currentPage == chapters[chapters.length - 1];
+        prevButtons.forEach(function(el) { el.disabled = currentPage == null; });
+        nextButtons.forEach(function(el) { el.disabled = currentPage == chapters[chapters.length - 1]; });
     }
 
     function goToPrevious() {
@@ -85,20 +85,20 @@
         for(var i = 0; i < shareButtons.length; i++) {
             var button = shareButtons[i];
 
-            button.href = button.href
-                .replace("{url}", encodeURI(window.location.protocol + "//" + window.location.host + window.location.pathname))
+            button.href = button.dataset.hrefTemplate
+                .replace("{url}", encodeURI(window.location.href))
                 .replace("{title}", "Evidence-Based Hiring")
         }
     }
 
     function init() {
-        setupShareButtons();
-
         if (typeof (document.querySelector) !== "function") {
             // if the browser doesn't the apis we need
             // keep the book in a single HTML page
             return;
         }
+
+        setupShareButtons();
 
         var title = document.querySelector("h1.title");
         title.addEventListener('click', function() { goTo(null); });
@@ -106,7 +106,7 @@
         var tocButton = document.querySelector("button#toc-button");
         tocButton.addEventListener('click', function() { goTo(null); });
 
-        toc = document.querySelector("#TOC");
+        frontPage = document.querySelector("#front-page");
 
         copyright = document.querySelector("section#copyright"); 
 
@@ -126,15 +126,16 @@
         footnotes = document.querySelector("section.footnotes"); 
         footnotes.style.display = "none";
 
-        prevButton = document.getElementById("prev-button");
-        prevButton.addEventListener('click', goToPrevious);
+        prevButtons = document.querySelectorAll(".prev-button");
+        prevButtons.forEach(function(el) { el.addEventListener('click', goToPrevious); });
 
-        nextButton = document.getElementById("next-button");
-        nextButton.addEventListener('click', goToNext);
+        nextButtons = document.querySelectorAll(".next-button");
+        nextButtons.forEach(function(el) { el.addEventListener('click', goToNext); });
 
         goTo(window.location.hash);
         window.addEventListener('hashchange', function() { 
             goTo(window.location.hash);
+            setupShareButtons();
 
             var id = window.location.hash ? window.location.hash.substring(1) : null
             var element = id ? document.getElementById(id) : null;

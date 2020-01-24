@@ -23,6 +23,11 @@ $endif$
 $if(keywords)$
   <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
 $endif$
+$if(title)$
+  <meta property="og:title" content="$title$">
+$endif$
+  <meta property="og:image" content="../images/EBH-cover-image-small.jpg">
+
   <title>$if(title-prefix)$$title-prefix$ ΓÇô $endif$$pagetitle$</title>
   <style>
     $styles.html$
@@ -39,6 +44,7 @@ $endif$
 $for(header-includes)$
   $header-includes$
 $endfor$
+  <link rel="stylesheet" href="../styling/html-styling.css" />
 </head>
 <body>
 $for(include-before)$
@@ -47,44 +53,74 @@ $endfor$
 
 $if(title)$
 <header id="page-header">
-<h1 class="title">$title$</h1>
+  <h1 class="title">$title$</h1>
 
-<button id="toc-button">Table of contents</button>
+  <span id="nav-buttons-header">
+    <button class="prev-button">« Previous</button>
+    <button id="toc-button">Table of contents</button>
+    <button class="next-button">Next »</button>
+  </span>
 </header>
 $endif$
 
 <main>
-$if(toc)$
-<nav id="$idprefix$TOC" role="doc-toc">
-$if(toc-title)$
-<h2 id="$idprefix$toc-title">$toc-title$</h2>
-$endif$
-$table-of-contents$
-</nav>
-$endif$
+
+<div id="front-page">
+  <div id="front-page-summary">
+    <img src="../images/EBH-cover-image-extra-small.jpg" id="front-page-image" />
+    <p> 
+      Would you hire an unknown singer without hearing them sing? Even with “five years of singing experience” in their résumé and a diploma from “Epic Singers School,” you would still like to hear them, wouldn’t you?
+    </p>
+    <p>
+      Surprisingly, most companies do the opposite and base hiring decisions on candidate claims and attained degrees. The good news is that you can detect the top employees other companies are missing by applying Evidence-Based Hiring, a new and scientific process.
+    </p>
+    <span id="front-page-buttons">
+      <a href="https://www.amazon.com/dp/B07FRH43N7" target="_blank">
+        <img src="../images/amazon.png" title="Buy on Amazon.com" alt="Buy on Amazon.com" style="height: 65px;" />
+      </a>
+      <a href="./EBH-standalone.pdf">
+        <img src="../images/pdf.png" title="Download PDF" alt="Download PDF" style="width: 50px" />
+      </a>
+      <a href="./EBH.epub">
+        <img src="../images/epub.png" title="Download EPUB" alt="Download EPUB" style="width: 50px" />
+      </a>
+    </span> 
+    <div style="clear: both;"></div>
+  </div>
+
+
+  $if(toc)$
+  <nav id="$idprefix$TOC" role="doc-toc">
+  $if(toc-title)$
+  <h2 id="$idprefix$toc-title">$toc-title$</h2>
+  $endif$
+  $table-of-contents$
+  </nav>
+  $endif$
+</div>
 
 $body$
 </main>
 
 <footer id="page-footer">
-  <span id="share-buttons">
-    <a href="http://www.facebook.com/sharer.php?u={url}" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank">
+  <span id="share-buttons" style="display: none">
+    <a data-href-template="http://www.facebook.com/sharer.php?u={url}" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank">
       <img src="../images/share-facebook.png" alt="Facebook" width="32" height="32"/>
     </a>
-    <a href="http://twitter.com/share?url={url}&text={title}" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank">
+    <a data-href-template="http://twitter.com/share?url={url}&text={title}" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank">
         <img src="../images/share-twitter.png" alt="Twitter" width="32" height="32"/>
     </a>
-    <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl={url}%26title={title}" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank">
+    <a data-href-template="http://www.reddit.com/login?dest=%2Fsubmit%3Furl={url}%26title={title}" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank">
         <img src="../images/share-reddit.png" alt="Reddit" width="32" height="32" />
     </a>
-    <a href="mailto:?subject=Check out {url}" style="text-decoration: none; white-space: nowrap;" title="Email">
+    <a data-href-template="mailto:?subject=Check out {url}" style="text-decoration: none; white-space: nowrap;" title="Email">
         <img src="../images/share-email.png" alt="Email" width="32" height="32"/>
     </a>
   </span>
 
-  <span id="nav-buttons">
-    <button id="prev-button">Previous</button>
-    <button id="next-button">Next</button>
+  <span id="nav-buttons-footer">
+    <button class="prev-button">« Previous</button>
+    <button class="next-button">Next »</button>
   </span>
 </footer>
 
