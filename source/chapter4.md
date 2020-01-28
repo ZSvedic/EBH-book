@@ -80,7 +80,7 @@ Recruiters often say that they are very efficient, because they eliminate the ma
 There is one ingenious idea rarely mentioned in screening resources: find a person who knows the candidate the best, and convince them to do a screening—for free. That person is the candidate themself, and the method is *candidate self-selection*. Candidates don’t want to be failures: they want to succeed in their job. If your job description indicates that they are probably going to fail if they were hired, they’re not going to apply.
 
 > When advertising normal products, you want to sell to as many people as possible. 
-> But, when advertising jobs, you want to “sell” it to the right people for the job—and scare away everybody else.*
+> But, when advertising jobs, you want to “sell” it to the right people for the job—and scare away everybody else.
 
 I realized this the first time that my company was advertising a managerial position. Our previous job ad was for a developer and we had 30 applicants. But, when we needed a manager, which was a more demanding job, more than 140 people applied. The problem was that our developer job ad was very specific: we listed languages and technologies which candidates needed to know. The manager’s job ad was more general, and everybody thinks they would be a great manager. It didn’t have specific criteria that candidates could use for self-elimination.
 
