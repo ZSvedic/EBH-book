@@ -194,14 +194,14 @@ Having a real person address them by name shows both a personal touch and that s
 
 Here are a few common questions which our candidates tend to ask at this stage, together with our answers:
 
--   Q: Is the salary range from the job ad fixed?\
-    A: Yes, usually it is, otherwise we would put a different range.
+Q: Is the salary range from the job ad fixed?\
+A: Yes, usually it is, otherwise we would put a different range.
 
--   Q: Can I work part-time, instead of full-time?\
-    A: Usually no, because otherwise we would have put part-time in the job ad.
+Q: Can I work part-time, instead of full-time?\
+A: Usually no, because otherwise we would have put part-time in the job ad.
 
--   Q: How long will your process take, as I am also talking with another company?\
-    A: We can hurry up your application, but the minimum time is X.
+Q: How long will your process take, as I am also talking with another company?\
+A: We can hurry up your application, but the minimum time is X.
 
 Whatever the answer is, give it directly and timely. It is very annoying for candidates not to receive a response for days or to get a convoluted answer. Your communication is a mirror of your company culture, so make it shine.
 
