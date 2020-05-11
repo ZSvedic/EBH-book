@@ -81,7 +81,7 @@ img.not-centered {
 h1, h2, h3, h4, h5, h6 {
   color: #111;
   line-height: 125%;
-  margin-top: 2em;
+  margin-top: 0;
   font-weight: normal;
   text-align:center; /* Change: all titles are centered. */
 }
@@ -334,4 +334,21 @@ table td {
   h2, h3 {
     page-break-after: avoid;
   }
+}
+
+.rights {
+  display: none;
+}
+
+section#evidence-based-hiring > h1:first-child {
+  display: none;
+}
+
+section#evidence-based-hiring > p:first-child {
+  display: none;
+  page-break-after: auto!important;
+}
+
+section.footnotes li p {
+  text-align: left;
 }
