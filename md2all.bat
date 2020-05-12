@@ -13,7 +13,7 @@ pandoc -s %front% %content% -o ../output/EBH.epub --toc -c ../styling/epub-styli
 
 @REM Build print PDF:
 pandoc -s %front% -o ../output/EBH-print-front.pdf --columns 55 -H ../styling/pdf-print-latex-options.sty --lua-filter ../styling/pdf-center-images.lua --template ../styling/pdf-print-front-template.tex
-pandoc -s %content% -o ../output/EBH-print-content.pdf --columns 55 -H ../styling/pdf-print-latex-options.sty --lua-filter ../styling/pdf-center-images.lua --toc 
+pandoc -s %content% -o ../output/EBH-print-content.pdf --columns 55 -H ../styling/pdf-print-latex-options.sty --lua-filter ../styling/pdf-center-images.lua --lua-filter ../styling/pdf-table-size.lua --toc 
 
 pdflatex -job-name=EBH-print -output-directory=../output/ ../styling/pdf-print-merge.tex
 del ..\output\EBH-print-front.pdf
@@ -23,7 +23,7 @@ del ..\output\EBH-print.log
 
 @REM Build standalone PDF:
 pandoc -s %front% -o ../output/EBH-standalone-front.pdf --columns 55 -H ../styling/pdf-standalone-latex-options.sty --lua-filter ../styling/pdf-center-images.lua --template ../styling/pdf-standalone-front-template.tex
-pandoc -s %content% -o ../output/EBH-standalone-content.pdf --columns 55 -H ../styling/pdf-standalone-latex-options.sty --lua-filter ../styling/pdf-center-images.lua --toc
+pandoc -s %content% -o ../output/EBH-standalone-content.pdf --columns 55 -H ../styling/pdf-standalone-latex-options.sty --lua-filter ../styling/pdf-center-images.lua --lua-filter ../styling/pdf-table-size.lua --toc
 
 pdflatex -job-name=EBH-standalone -output-directory=../output/ ../styling/pdf-standalone-merge.tex
 del ..\output\EBH-standalone-front.pdf
