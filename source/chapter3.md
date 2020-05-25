@@ -43,7 +43,7 @@ While scientific, the Big Five still gives weak predictions. A paper by Morgeson
 
 [^people-success]: People Success: <http://www.peoplesuccess.co.uk/behavioural-style/validity/>
 
-[^disc-analysis]: Presentation: <http://www.amazureconsulting.com/wp-content/uploads/2016/07/DISCPastAndPresentAndWilliamMarston.pdf>
+[^disc-analysis]: Presentation: <https://tinyurl.com/y7ubrkq7>
 
 [^big-five]: Wikipedia: <https://en.wikipedia.org/wiki/Big_Five_personality_traits>
 

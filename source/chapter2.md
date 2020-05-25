@@ -68,7 +68,7 @@ So, who gets votes? Well, all American presidents for the past 130 years, except
 
 [^animal-welfare]: Wikipedia: <https://en.wikipedia.org/wiki/Animal_welfare_in_Nazi_Germany> 
 
-[^hitler-vegetarian]: Wikipedia: <https://en.wikipedia.org/wiki/Adolf\_Hitler\_and\_vegetarianism>
+[^hitler-vegetarian]: Wikipedia: <https://en.wikipedia.org/wiki/Adolf_Hitler_and_vegetarianism>
 
 [^eva-suicide]: Wikipedia: <https://en.wikipedia.org/wiki/Eva_Braun#Marriage_and_suicide>
 

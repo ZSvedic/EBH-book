@@ -62,7 +62,7 @@ Hiring doesn’t get easier if you work in a big company—quite the contrary. I
 
 [^google-chance]: Quartz article: <https://qz.com/285001/heres-why-you-only-have-a-0-2-chance-of-getting-hired-at-google/>
 
-[^largest-employers]: Wikipedia: <https://en.wikipedia.org/wiki/List\_of\_largest\_employers\_in\_the\_United\_States>
+[^largest-employers]: Wikipedia: <https://en.wikipedia.org/wiki/List_of_largest_United_States-based_employers_globally>
 
 This might sound like a bad thing, but it’s not, as it means a large majority of society can find employment. Hiring knowledge workers is not hiring on a massive scale. You can screen for the best and give them better benefits than the competition. A great employee that delivers twice as much is well worth a 50% higher salary.
 
