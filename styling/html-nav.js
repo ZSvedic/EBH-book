@@ -1,5 +1,5 @@
 (function() {
-    var frontPage, copyright, chapters, sections, footnotes, currentPage, prevButtons, nextButtons;
+    var frontPage, lastPage, copyright, chapters, sections, footnotes, currentPage, prevButtons, nextButtons;
 
     function hide(el) {
         el.style.display = "none";
@@ -29,14 +29,14 @@
             window.location.hash = hash;
         }
 
-        if (currentPage == chapters[chapters.length - 1]) {
+        if (currentPage == lastPage) {
             show(footnotes);
         } else {
             hide(footnotes);
         }
 
         prevButtons.forEach(function(el) { el.disabled = currentPage == null; });
-        nextButtons.forEach(function(el) { el.disabled = currentPage == chapters[chapters.length - 1]; });
+        nextButtons.forEach(function(el) { el.disabled = currentPage == lastPage; });
     }
 
     function goToPrevious() {
@@ -72,6 +72,15 @@
             x.parentChapter = chapter;
             
             buildSubChapters(x, level + 1);
+
+            sections.push(x);
+        });
+    }
+
+    function buildFootnotes(chapter, footnotes) {
+        footnotes.forEach(function(x) {
+            x.hash = '#' + x.id;
+            x.parentChapter = chapter;
 
             sections.push(x);
         });
@@ -123,8 +132,11 @@
                 chapters.push(x);
             });
 
+        lastPage = chapters[chapters.length - 1];
+
         footnotes = document.querySelector("section.footnotes"); 
         footnotes.style.display = "none";
+        buildFootnotes(lastPage, footnotes.querySelectorAll('li[id^="fn"]'));
 
         prevButtons = document.querySelectorAll(".prev-button");
         prevButtons.forEach(function(el) { el.addEventListener('click', goToPrevious); });
