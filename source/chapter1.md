@@ -82,7 +82,7 @@ For all the reasons discussed, the average hiring process just doesn’t cut it.
 
 -   How to best communicate with candidates during the process.
 
--   The types of questions that you should ask to screen high-calibre candidates.
+-   The types of questions that you should ask to screen high-caliber candidates.
 
 -   How to structure interviews.
 
