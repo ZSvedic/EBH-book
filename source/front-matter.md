@@ -9,11 +9,16 @@ cover-image: ../images/EBH-cover-image-small.jpg
 \newpage
 
 <section id="copyright">
-![](../images/by-nd.png){.not-centered width=25%}
 
+<div id="copyright-license">
+![](../images/by-nd.png){.not-centered}
+
+<div>
 This book is licensed under CC BY-ND (Creative Commons Attribution-NoDerivatives) 4.0 license:
 
 <https://creativecommons.org/licenses/by-nd/4.0/legalcode>
+</div>
+</div>
 
 
 
