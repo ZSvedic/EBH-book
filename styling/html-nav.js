@@ -95,7 +95,7 @@
             var button = shareButtons[i];
 
             button.href = button.dataset.hrefTemplate
-                .replace("{url}", encodeURIComponent(window.location.href))
+                .replace("{url}", encodeURIComponent(window.parent.location.href))
                 .replace("{title}", "Evidence-Based Hiring")
         }
     }

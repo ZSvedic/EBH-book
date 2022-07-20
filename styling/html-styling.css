@@ -328,6 +328,7 @@ table td {
   float: right;
   height: 340px;
   margin: 0 20px;
+  border-radius: 0.25rem;
 }
 
 #front-page-buttons .btn {
@@ -371,35 +372,35 @@ table td {
   margin-right: 3px;
 }
 
-.btn-transluscent {
+.btn-translucent {
   background: #DFF0FE;
   color: #006FAD;
 }
 
-.btn-transluscent:not(:disabled):focus {
+.btn-translucent:not(:disabled):focus {
   box-shadow: 0 0 0 0.2rem rgba(0, 111, 173, 0.25);
 }
 
-.btn-transluscent:hover {
+.btn-translucent:hover {
   background-color: rgba(0, 111, 173, 0.2);
   color: #004e7a;
 }
 
-.btn-transluscent:disabled {
+.btn-translucent:disabled {
   color: #6c757d;
   background-color: rgba(108, 117, 125, 0.1);
   cursor: not-allowed;
 }
 
-.btn-transluscent svg {
+.btn-translucent svg {
   fill: #006FAD;
 }
 
-.btn-transluscent:hover svg {
+.btn-translucent:hover svg {
   fill: #004e7a;
 }
 
-.btn-transluscent:disabled svg {
+.btn-translucent:disabled svg {
   color: #6c757d;
 }
 
@@ -421,8 +422,7 @@ table td {
 
 @media only screen and (max-width: 576px) {
   #front-page-image {
-    float: none;
-    margin: auto;
+    margin: 50px 10px 0 10px;
     height: 200px;
   }
 
@@ -450,6 +450,10 @@ table td {
 }
 
 @media only screen and (min-width: 768px) {
+  .w-md-auto {
+    width: auto;
+  }
+
   .w-md-50 {
     width: 50%
   }
