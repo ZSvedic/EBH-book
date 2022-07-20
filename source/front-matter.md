@@ -9,6 +9,7 @@ cover-image: ../images/EBH-cover-image-small.jpg
 \newpage
 
 <section id="copyright">
+### License {style="text-align: left"}
 
 <div id="copyright-license">
 ![](../images/by-nd.png){.not-centered}

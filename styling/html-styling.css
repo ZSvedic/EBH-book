@@ -378,6 +378,7 @@ table td {
   float: right;
   height: 340px;
   margin: 0 20px;
+  border-radius: 0.25rem;
 }
 
 #page-footer {
@@ -515,8 +516,7 @@ table td {
   }
 
   #front-page-image {
-    float: none;
-    margin: auto;
+    margin: 50px 10px 0 10px;
     height: 200px;
   }
 
@@ -546,6 +546,10 @@ table td {
 }
 
 @media only screen and (min-width: 768px) {
+  .w-md-auto {
+    width: auto;
+  }
+
   .w-md-50 {
     width: 50%
   }
