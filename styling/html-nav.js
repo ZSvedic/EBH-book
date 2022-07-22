@@ -108,7 +108,12 @@
         }
 
         // Export navigation functions so that they're publicly visible.
-        window.EBHBook = { goTo: goTo, goToNext: goToNext, goToPrevious: goToPrevious };
+        window.EBHBook = {
+            goTo: goTo,
+            goToNext: goToNext,
+            goToPrevious: goToPrevious,
+            isTableOfContents: () => currentPage == null
+        };
 
         setupShareButtons();
 
