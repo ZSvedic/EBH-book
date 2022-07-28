@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$"$if(dir)$ dir="$dir$"$endif$>
 <head>
+  <link rel="preconnect" href="https://www.googletagmanager.com" />
+  <link rel="preconnect" href="https://www.google-analytics.com" />
+  <link rel="preload" href="../styling/fonts/poppins-latin-400.woff2" as="font" crossorigin="">
+  <link rel="preload" href="../styling/fonts/poppins-latin-500.woff2" as="font" crossorigin="">
+  <link rel="preload" href="../styling/fonts/poppins-latin-600.woff2" as="font" crossorigin="">
+  <link rel="preload" href="../styling/fonts/poppins-latin-700.woff2" as="font" crossorigin="">
+  <link rel="preload" href="../styling/fonts/poppins-latin-ext-400.woff2" as="font" crossorigin="">
+  <link rel="preload" href="../styling/fonts/poppins-latin-ext-500.woff2" as="font" crossorigin="">
+  <link rel="preload" href="../styling/fonts/poppins-latin-ext-600.woff2" as="font" crossorigin="">
+  <link rel="preload" href="../styling/fonts/poppins-latin-ext-700.woff2" as="font" crossorigin="">
+  <link rel="preload" href="../images/ebh-cover-image-extra-small.jpg" as="image">
+  <link rel="preload" href="../styling/html-styling.css" as="style">
+  <link rel="preload" href="../styling/html-nav.js" as="script">
+
   <!-- Google Tag Manager -->
   <script>
   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -30,9 +44,11 @@ $endif$
   <meta property="og:image" content="https://images-na.ssl-images-amazon.com/images/I/51vUJL60WAL.jpg"/>
 
   <title>$if(title-prefix)$$title-prefix$ ΓÇô $endif$$pagetitle$</title>
+$if(styles.html)$
   <style>
     $styles.html$
   </style>
+$endif$  
 $for(css)$
   <link rel="stylesheet" href="$css$" />
 $endfor$
@@ -77,7 +93,7 @@ $endif$
 
 <div id="front-page">
   <div id="front-page-summary">
-    <img src="../images/ebh-cover-image-extra-small.jpg" id="front-page-image" loading="lazy" />
+    <img src="../images/ebh-cover-image-extra-small.jpg" id="front-page-image" />
     <h4 style="text-align: left">About the Book</h4>
     <p> 
       Would you hire an unknown singer without hearing them sing? Even with “five years of singing experience” in their résumé and a diploma from “Epic Singers School,” you would still like to hear them, wouldn’t you?
