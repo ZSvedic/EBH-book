@@ -81,7 +81,7 @@
   --primary-500: hsl(202, 100%, 34%);
   --primary-700: hsl(205, 100%, 23%);
   --primary-900: hsl(208, 100%, 19%);
-  --gray-500: hsl(208, 34%, 46%);
+  --gray-500: hsl(208, 24%, 40%);
   --text-muted: var(--gray-500);
 }
 
