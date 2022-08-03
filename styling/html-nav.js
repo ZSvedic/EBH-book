@@ -2,7 +2,7 @@
     var frontPage, lastPage, copyright, chapters, sections, footnotes, currentPage, prevButtons, nextButtons;
 
     function hide(el) {
-        el.style.display = "none";
+        el.style.display = 'none';
     }
 
     function show(el) {
@@ -20,7 +20,7 @@
             show(frontPage);
             show(copyright);
 
-            window.location.hash = '';
+            window.location.hash = hash === '#toc-title' ? '#toc-title' : '';
         } else {
             hide(frontPage);
             hide(copyright);
@@ -65,7 +65,7 @@
     }
 
     function buildSubChapters(chapter, level) {
-        var subs = chapter.querySelectorAll("section.level" + level);
+        var subs = chapter.querySelectorAll('section.level' + level);
         
         subs.forEach(function(x) {
             x.hash = '#' + x.id;
@@ -87,21 +87,21 @@
     }
 
     function setupShareButtons() {
-        var shareButtonsContainer = document.getElementById("share-buttons");
+        var shareButtonsContainer = document.getElementById('share-buttons');
         show(shareButtonsContainer);
 
-        var shareButtons = shareButtonsContainer.getElementsByTagName("a");
+        var shareButtons = shareButtonsContainer.getElementsByTagName('a');
         for(var i = 0; i < shareButtons.length; i++) {
             var button = shareButtons[i];
 
             button.href = button.dataset.hrefTemplate
-                .replace("{url}", encodeURIComponent(window.parent.location.href))
-                .replace("{title}", "Evidence-Based Hiring")
+                .replace('{url}', encodeURIComponent(window.parent.location.href))
+                .replace('{title}', 'Evidence-Based Hiring')
         }
     }
 
     function init() {
-        if (typeof (document.querySelector) !== "function") {
+        if (typeof (document.querySelector) !== 'function') {
             // if the browser doesn't the apis we need
             // keep the book in a single HTML page
             return;
@@ -117,22 +117,22 @@
 
         setupShareButtons();
 
-        var title = document.querySelector("h1.title");
+        var title = document.querySelector('h1.title');
         title.addEventListener('click', function() { goTo(null); });
 
-        var tocButton = document.querySelector("button#toc-button");
-        tocButton.addEventListener('click', function() { goTo(null); });
+        var tocButton = document.querySelector('button#toc-button');
+        tocButton.addEventListener('click', function() { goTo('#toc-title'); });
 
-        frontPage = document.querySelector("#front-page");
+        frontPage = document.querySelector('#front-page');
 
-        copyright = document.querySelector("section#copyright"); 
+        copyright = document.querySelector('section#copyright'); 
 
         sections = [];
         chapters = [];
-        document.querySelectorAll("section.level2")
+        document.querySelectorAll('section.level2')
             .forEach(function(x) { 
                 x.hash = '#' + x.id;
-                x.style.display = "none";
+                x.style.display = 'none';
 
                 buildSubChapters(x, 3);
 
@@ -142,14 +142,14 @@
 
         lastPage = chapters[chapters.length - 1];
 
-        footnotes = document.querySelector("section.footnotes"); 
-        footnotes.style.display = "none";
+        footnotes = document.querySelector('section.footnotes'); 
+        footnotes.style.display = 'none';
         buildFootnotes(lastPage, footnotes.querySelectorAll('li[id^="fn"]'));
 
-        prevButtons = document.querySelectorAll(".prev-button");
+        prevButtons = document.querySelectorAll('.prev-button');
         prevButtons.forEach(function(el) { el.addEventListener('click', goToPrevious); });
 
-        nextButtons = document.querySelectorAll(".next-button");
+        nextButtons = document.querySelectorAll('.next-button');
         nextButtons.forEach(function(el) { el.addEventListener('click', goToNext); });
 
         goTo(window.location.hash);
