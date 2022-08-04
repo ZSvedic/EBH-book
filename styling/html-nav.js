@@ -10,33 +10,7 @@
     }
 
     function goTo(hash) {
-        if (currentPage) {
-            hide(currentPage);
-        }
-
-        currentPage = getRootChapter(hash);
-
-        if (currentPage == null) {
-            show(frontPage);
-            show(copyright);
-
-            window.location.hash = hash === '#toc-title' ? '#toc-title' : '';
-        } else {
-            hide(frontPage);
-            hide(copyright);
-            show(currentPage);
-
-            window.location.hash = hash;
-        }
-
-        if (currentPage == lastPage) {
-            show(footnotes);
-        } else {
-            hide(footnotes);
-        }
-
-        prevButtons.forEach(function(el) { el.disabled = currentPage == null; });
-        nextButtons.forEach(function(el) { el.disabled = currentPage == lastPage; });
+        window.location.hash = hash || '';
     }
 
     function goToPrevious() {
@@ -55,6 +29,42 @@
         index++;
 
         window.location.hash = chapters[index] ? chapters[index].hash : '';
+    }
+
+    function onHashChange() {
+        var hash = window.location.hash;
+
+        if (currentPage) {
+            hide(currentPage);
+        }
+
+        currentPage = getRootChapter(hash);
+
+        if (currentPage == null) {
+            show(frontPage);
+            show(copyright);
+        } else {
+            hide(frontPage);
+            hide(copyright);
+            show(currentPage);
+        }
+
+        if (currentPage == lastPage) {
+            show(footnotes);
+        } else {
+            hide(footnotes);
+        }
+
+        prevButtons.forEach(function(el) { el.disabled = currentPage == null; });
+        nextButtons.forEach(function(el) { el.disabled = currentPage == lastPage; });
+
+        setupShareButtons();
+        scrollToElement(window.location.hash);
+    }
+
+    function scrollToElement(selector) {
+        var element = selector ? document.querySelector(selector) : null;
+        window.scroll({ top: element ? element.offsetTop : 0, left: 0 });
     }
 
     function getRootChapter(hash) {
@@ -107,13 +117,25 @@
             return;
         }
 
+        if ('scrollRestoration' in history) {
+            // disable auto scroll restoration to avoid
+            // since we control scroll position ourselves
+            history.scrollRestoration = 'manual';
+        }
+
         setupShareButtons();
 
         var title = document.querySelector('h1.title');
-        title.addEventListener('click', function() { goTo(null); });
+        title.addEventListener('click', function() {
+            goTo(null);
+            scrollToElement(null);
+        });
 
         var tocButton = document.querySelector('button#toc-button');
-        tocButton.addEventListener('click', function() { goTo('#toc-title'); });
+        tocButton.addEventListener('click', function() {
+            goTo('#toc-title');
+            scrollToElement('#toc-title');
+        });
 
         frontPage = document.querySelector('#front-page');
 
@@ -144,15 +166,11 @@
         nextButtons = document.querySelectorAll('.next-button');
         nextButtons.forEach(function(el) { el.addEventListener('click', goToNext); });
 
-        goTo(window.location.hash);
-        window.addEventListener('hashchange', function() { 
-            goTo(window.location.hash);
-            setupShareButtons();
-
-            var id = window.location.hash ? window.location.hash.substring(1) : null
-            var element = id ? document.getElementById(id) : null;
-            window.scroll({ top: element ? element.offsetTop : 0, left: 0 });
-        });
+        window.addEventListener('hashchange', function() { onHashChange(); });
+       
+        // trigger onHashChange the first time the page loads
+        // to make sure the correct chapter is displayed.
+        onHashChange();
     }
 
     init();
