@@ -477,10 +477,12 @@ table td {
   background-color: #000;
   border: none;
   border-radius: 0.5rem;
+  padding: 0px 5px;
 }
 
 .btn-amazon img {
   display: inline;
+  border-radius: 0.5rem;
 }
 
 .w-100 {
