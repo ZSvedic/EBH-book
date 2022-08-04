@@ -95,7 +95,7 @@
             var button = shareButtons[i];
 
             button.href = button.dataset.hrefTemplate
-                .replace('{url}', encodeURIComponent(window.parent.location.href))
+                .replace('{url}', encodeURIComponent(window.location.href))
                 .replace('{title}', 'Evidence-Based Hiring')
         }
     }
@@ -106,14 +106,6 @@
             // keep the book in a single HTML page
             return;
         }
-
-        // Export navigation functions so that they're publicly visible.
-        window.EBHBook = {
-            goTo: goTo,
-            goToNext: goToNext,
-            goToPrevious: goToPrevious,
-            isTableOfContents: () => currentPage == null
-        };
 
         setupShareButtons();
 
