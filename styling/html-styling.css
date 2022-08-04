@@ -81,7 +81,7 @@
   --primary-500: hsl(202, 100%, 34%);
   --primary-700: hsl(205, 100%, 23%);
   --primary-900: hsl(208, 100%, 19%);
-  --gray-500: hsl(208, 34%, 46%);
+  --gray-500: hsl(208, 24%, 40%);
   --text-muted: var(--gray-500);
 }
 
@@ -377,7 +377,7 @@ table td {
   float: right;
   height: 340px;
   margin: 0 20px;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
 }
 
 #page-footer {
@@ -476,7 +476,7 @@ table td {
   display: inline-block;
   background-color: #000;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
 }
 
 .btn-amazon img {
