@@ -27,7 +27,7 @@ One of the oldest personality profiling system is Myers–Briggs. According to T
 [^mysterious-popularity]: Article: <https://www.forbes.com/sites/toddessig/2014/09/29/the-mysterious-popularity-of-the-meaningless-myers-briggs-mbti/>
 [^mb-useless]: Article: <https://op-talk.blogs.nytimes.com/2014/07/18/why-myers-briggs-is-totally-useless-but-wildly-popular/>
 
-Another popular assessment is DiSC[^disc] (Dominance, Influence, Steadiness, and Conscientiousness). DiSC results are not normalized[^ipsative], meaning that you can’t compare different people with it. Some assessment vendors, like People Success, claim that DiSC “has a validity rate of between 88% and 91%”[^people-success]. Validity around 0.9 would be a spectacular result for any pre-employment method, on par with with a crystal ball. But, the vendor failed to mention that it was just face validity[^disc-analysis].
+Another popular assessment is DiSC[^disc] (Dominance, Influence, Steadiness, and Conscientiousness). DiSC results are not normalized[^ipsative], meaning that you can’t compare different people with it. Some assessment vendors, like People Success, claim that DiSC “has a validity rate of between 88% and 91%”[^people-success]. Validity around 0.9 would be a spectacular result for any pre-employment method, on par with a crystal ball. But, the vendor failed to mention that it was just face validity[^disc-analysis].
 
 Generally, modern psychology has debunked the idea that people fall into certain “types.” Personality traits come in a spectrum—for example, people are distributed on a scale from introversion to extroversion. Traits are not binary. And, the traits that people actually have are *not* the ones claimed by Myers-Briggs or DiSC.
 
