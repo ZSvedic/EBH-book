@@ -87,6 +87,16 @@
         });
     }
 
+    function buildFootnoteReferences(chapter) {
+        // use `sup` instead of `a` to avoid overriding the existing `hash` property of `a`
+        chapter.querySelectorAll('a[id^="fnref"] > sup').forEach(function(x) {
+            x.hash = '#' + x.parentElement.id;
+            x.parentChapter = chapter;
+
+            sections.push(x);
+        });
+    }
+
     function buildFootnotes(chapter, footnotes) {
         footnotes.forEach(function(x) {
             x.hash = '#' + x.id;
@@ -152,6 +162,8 @@
 
                 sections.push(x);
                 chapters.push(x);
+
+                buildFootnoteReferences(x);
             });
 
         lastPage = chapters[chapters.length - 1];
