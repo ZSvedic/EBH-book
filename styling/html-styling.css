@@ -188,6 +188,23 @@ h1 {
   line-height: 1;
 }
 
+/* Force titles inside sections to be smaller. */
+section h1 {
+  font-size: 2rem;
+}
+
+section h2 {
+  font-size: 1.5rem;
+}
+
+section h4 {
+  font-size: 1rem;
+}
+
+section h5 {
+  font-size: 0.9rem;
+}
+
 h2 {
   font-size: 2rem;
 }
