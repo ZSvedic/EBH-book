@@ -25,6 +25,7 @@ cp -r ../images ../output/web
 rm ../output/web/styling/*.sty
 rm ../output/web/styling/*.tex
 rm ../output/web/styling/*.lua
+rm ../output/web/styling/html-template.html
 
 @REM Build EPUB:
 pandoc -s %front% %content% -o ../output/ebh.epub --toc -c ../styling/epub-styling.css --lua-filter ../styling/pagebreak.lua 
