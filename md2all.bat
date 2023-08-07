@@ -6,11 +6,11 @@ set front=front-matter.md
 set content=chapter1.md chapter2.md chapter3.md chapter4.md chapter5.md chapter6.md chapter7.md chapter8.md bonus-chapter.md back-matter.md
 
 @REM Create folders:
-if not exist ../output mkdir ../output
-if not exist ../output/web mkdir ../output/web
+if not exist ..\output mkdir ..\output
+if not exist ..\output\web mkdir ..\output\web
 
 @REM Build HTML:
-pandoc --shift-heading-level-by -1 --split-level 1 -t chunkedhtml -s %front% %content% -o ../output/web/ebh --toc --section-divs --lua-filter ../styling/pagebreak.lua --lua-filter ../styling/html-open-links-in-new-tab.lua --lua-filter ../styling/html-lazy-images.lua --template ../styling/html-template.html
+pandoc --split-level 1 -t chunkedhtml -s %front% %content% -o ../output/web/ebh --toc --section-divs --lua-filter ../styling/pagebreak.lua --lua-filter ../styling/html-open-links-in-new-tab.lua --lua-filter ../styling/html-lazy-images.lua --template ../styling/html-template.html
 
 @REM Replacing index.html with licence.html:
 del ..\output\web\ebh\index.html
