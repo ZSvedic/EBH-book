@@ -19,11 +19,19 @@ sed -i 's/1-license.html/index.html/g' ../output/web/ebh/*.html
 
 @REM Include styling and images in the output folder:
 cp -r ../styling ../output/web
-cp -r ../Amazon ../output/web
 cp -r ../images ../output/web
+
+@REM Remove unnecessary files from WEB output folder:
+rm ../output/web/styling/*.sty
+rm ../output/web/styling/*.tex
+rm ../output/web/styling/*.lua
+rm ../output/web/styling/html-template.html
 
 @REM Build EPUB:
 pandoc -s %front% %content% -o ../output/ebh.epub --toc -c ../styling/epub-styling.css --lua-filter ../styling/pagebreak.lua 
+
+@REM Copy EPUB to web folder:
+cp ../output/ebh.epub ../output/web/ebh/ebh.epub
 
 @REM Build print PDF:
 pandoc -s %front% -o ../output/ebh-print-front.pdf --columns 55 -H ../styling/pdf-print-latex-options.sty --lua-filter ../styling/pdf-center-images.lua --template ../styling/pdf-print-front-template.tex
@@ -44,6 +52,9 @@ del ..\output\ebh-standalone-front.pdf
 del ..\output\ebh-standalone-content.pdf
 del ..\output\ebh-standalone.aux
 del ..\output\ebh-standalone.log
+
+@REM Copy standalone PDF to web folder:
+cp ../output/ebh-standalone.pdf ../output/web/ebh/ebh-standalone.pdf
 
 @REM Go back to the original folder:
 popd
