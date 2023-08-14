@@ -95,7 +95,7 @@ html {
 body,
 p,
 span,
-button {
+.btn {
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 1rem;
 }
@@ -105,7 +105,7 @@ button {
   body,
   p,
   span,
-  button {
+  .btn {
     font-size: 0.9rem;
   }
 }
@@ -506,6 +506,14 @@ table td {
   width: 100%;
 }
 
+#footnotes {
+  word-break: break-all;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
 @media only screen and (max-width: 576px) {
   h1 {
     font-size: 1.75rem;
@@ -548,7 +556,7 @@ table td {
     margin: auto;
   }
 
-  #nav-buttons-header button {
+  #nav-buttons-header .btn {
     display: block;
     margin-top: 10px;
   }
