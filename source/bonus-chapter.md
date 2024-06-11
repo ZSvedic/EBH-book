@@ -10,7 +10,7 @@ Second, since the output of programming is a working program, the testing of pro
 
 Third, there is a large variety of productivity levels among programmers. We are not sure why, but good programmers can write code that is shorter, more elegant, runs faster, and has fewer bugs, up to ten times quicker[^joel-high-notes]. Most people who apply for a programming job can’t solve even the simplest coding task.
 
-[^kaggle]: Mashable: <https://mashable.com/2017/07/28/16-year-old-ai-genius/>
+[^kaggle]: Mashable: <https://mashable.com/article/16-year-old-ai-genius>
 
 [^joel-high-notes]: Article: <https://www.joelonsoftware.com/2005/07/25/hitting-the-high-notes/>
 
