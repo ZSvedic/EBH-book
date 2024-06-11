@@ -41,7 +41,7 @@ While scientific, the Big Five still gives weak predictions. A paper by Morgeson
 
 [^ipsative]: Wikipedia: <https://en.wikipedia.org/wiki/Ipsative>
 
-[^people-success]: People Success: <http://www.peoplesuccess.co.uk/behavioural-style/validity/>
+[^people-success]: People Success: <https://web.archive.org/web/20210802000354/http://www.peoplesuccess.co.uk/behavioural-style/validity/>
 
 [^disc-analysis]: Presentation: <https://tinyurl.com/y7ubrkq7>
 
