@@ -20,7 +20,7 @@ This effect has been observed for a long time. Imran Gorky wrote in 2007:
 
 He proceeded to develop the famous FizzBuzz question[^fizz-buzz]. Today, I don’t recommend using FizzBuzz, as even programmers who had been living under a rock have heard about this task. But, I can confirm that the effect is real, because we accidentally bumped into a similar question, which is even shorter than FizzBuzz.
 
-[^imranontech]: Blog post: <https://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/>
+[^imranontech]: Blog post: <https://megalodon.jp/2017-0307-0400-10/tickletux.wordpress.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/>
 
 [^fizz-buzz]: C2 wiki: <http://wiki.c2.com/?FizzBuzzTest>
 
