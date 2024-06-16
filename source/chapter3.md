@@ -57,7 +57,7 @@ Predictive validity is very hard to calculate. One would need to follow up a few
 
 [^predictive-validity]: Wikipedia: <https://en.wikipedia.org/wiki/Predictive_validity>
 
-[^schmid-hunter]: Schmid and Hunter (1998): <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.172.1733&rep=rep1&type=pdf>
+[^schmid-hunter]: Schmid and Hunter (1998): <https://web.archive.org/web/20190109161650/https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.172.1733&rep=rep1&type=pdf>
 
 ![Validity of different selection methods.](../images/validity.png){width=95%}
 
