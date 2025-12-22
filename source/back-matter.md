@@ -11,7 +11,7 @@ Thanks for finishing the book!
 
 But, how do you decide what to read among millions of books? Reviews help readers like you, and they also help authors know what is good about the book, and what can be improved.
 
-If you enjoyed this book, please take a few minutes to review it on Amazon ([*https://rebrand.ly/ebh*](https://rebrand.ly/ebh)) and/or Goodreads ([*https://rebrand.ly/gr-ebh*](https://rebrand.ly/gr-ebh)).
+If you enjoyed this book, please take a few minutes to review it on Goodreads ([*https://rebrand.ly/gr-ebh*](https://rebrand.ly/gr-ebh)).
 
 \newpage
 

@@ -1,5 +1,5 @@
 # Evidence-Based Hiring book
-This repo contains source and build scripts for Evidence-Based Hiring book ([Amazon](https://www.amazon.com/Evidence-Based-Hiring-Why-Broken-Data-ebook/dp/B07FRH43N7), [GoodReads](https://www.goodreads.com/book/show/40904662-evidence-based-hiring)). 
+This repo contains source and build scripts for Evidence-Based Hiring book ([GoodReads](https://www.goodreads.com/book/show/40904662-evidence-based-hiring)). 
 
 The book is in [Pandoc’s Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown), written using [VSCode](https://code.visualstudio.com/). 
 
