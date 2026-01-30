@@ -37,7 +37,7 @@ A personality test that *is* scientifically proven is the Big Five[^big-five], w
 
 While scientific, the Big Five still gives weak predictions. A paper by Morgeson et al.[^morgeson] summarizes multiple studies and concludes that only one of its variables (conscientiousness) is worth looking at, and even that is weakly correlated.
 
-[^disc]: RMi: <https://www.rmiexecutivesearch.com/disc-assessment>
+[^disc]: Guide to DiSC: <https://www.thomas.co/resources/type/hr-blog/complete-guide-disc-personality-testing>
 
 [^ipsative]: Wikipedia: <https://en.wikipedia.org/wiki/Ipsative>
 
