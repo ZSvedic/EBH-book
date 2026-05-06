@@ -263,7 +263,7 @@ Remember, the validity of unstructured interviews is 0.38, while the validity of
 
 All the tools that you need for structured interviews are available free of charge. We use Google Docs for questions and scoring, as well Skype and Call Recorder[^call-recorder] for calls. Our interviews look like in the next screenshot.
 
-[^call-recorder]: Ecamm Call Recorder: <https://www.ecamm.com/mac/callrecorder/>
+[^call-recorder]: Ecamm Call Recorder: <https://web.archive.org/web/20250117225417/https://www.ecamm.com/mac/callrecorder/>
 
 ![Screenshot of our Skype interview.](../images/skype-interview.png){width=95%}
 
