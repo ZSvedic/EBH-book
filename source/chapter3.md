@@ -20,7 +20,7 @@ One of the oldest personality profiling system is Myers–Briggs. According to T
 
 [^reliability]: Wikipedia: <https://en.wikipedia.org/wiki/Reliability_(statistics)>
 [^barnum-effect]: Wikipedia: <https://en.wikipedia.org/wiki/Barnum_effect>
-[^fortune-500]: The Myers-Briggs Company: <https://www.themyersbriggs.com/en-US/Products%20and%20Services/Myers-Briggs>
+[^fortune-500]: The Myers-Briggs Company: <https://www.themyersbriggs.com/en-us/explore-solutions/mbti>
 [^16personalities]: 16personalities: <https://www.16personalities.com/personality-types>
 [^personality-popular]: Psychometric Success: <http://www.psychometric-success.com/personality-tests/personality-tests-popular-tests.htm>
 [^measuring-mbti]: Article: <http://www.indiana.edu/~jobtalk/Articles/develop/mbti.pdf>
